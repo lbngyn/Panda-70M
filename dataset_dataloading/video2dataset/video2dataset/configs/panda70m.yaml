@@ -4,11 +4,14 @@ reading:
     yt_args:
         download_size: 360
         download_audio: True
+        ydl_args:
+            cookiefile: "/kaggle/input/panda100m/www.youtube.com_16-09-2025.json"
         yt_metadata_args:
             writesubtitles:  True
             subtitleslangs: ['en']
             writeautomaticsub: True
             get_info: True
+        
     timeout: 60
     sampler: null
 
